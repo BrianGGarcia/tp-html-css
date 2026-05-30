@@ -33,7 +33,7 @@
     border-radius: 25px;
     border: 1px solid var(--border);
     overflow: hidden;
-    box-shadow: 11px 10px 19px -5px rgba(0,0,0,0.75);
+    box-shadow: 11px 10px 19px -5px rgba(0, 0, 0, 0.75);
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -186,14 +186,14 @@ textarea {
 .letter {
     color: var(--secundary-text);
     width: 30px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 250;
 }
 
 .stat {
     color: var(--secundary-text);
     width: 95px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 250;
     text-align: right;
 }
@@ -218,4 +218,19 @@ progress::-webkit-progress-value { /* el nivel de progreso de la barra */
 progress::-moz-progress-bar { /* el nivel de progreso de la barra */
     background-color: var(--progress-bar);
     border-radius: 5px;
+}
+
+/* See more button */
+.see-more {
+    background: transparent;
+    border: none;
+    color: var(--secundary-text);
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+}
+
+.see-more:hover {
+    color: var(--main-text);
 }
