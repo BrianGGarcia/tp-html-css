@@ -4,3 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Definicion de variables globales */
+:root {
+    --main-background: #12131A;
+    --card-background: #1C1F2A;
+    --main-text: #F2F2F7;
+    --secundary-text: #B4B7C9;
+    --card-1: #C99DFF;
+    --card-2: #FFB21E;
+    --card-3: #FF8A65;
+    --progress-bar: #D19BFF;
+    --border: #2A2D3A;
+    --main-font: 'Inter';
+}
