@@ -10,9 +10,6 @@
     --card-background: #1C1F2A;
     --main-text: #F2F2F7;
     --secundary-text: #B4B7C9;
-    --card-1: #C99DFF;
-    --card-2: #FFB21E;
-    --card-3: #FF8A65;
     --progress-bar: #D19BFF;
     --border: #2A2D3A;
     --main-font: 'Inter';
@@ -165,4 +162,60 @@ textarea {
     font-size: 16px;
     font-weight: 450;
     margin-bottom: 15px;
+}
+/* Letter Density */
+.letter-density h3 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.density-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.density-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.letter {
+    color: var(--secundary-text);
+    width: 30px;
+    font-size: 15px;
+    font-weight: 250;
+}
+
+.stat {
+    color: var(--secundary-text);
+    width: 95px;
+    font-size: 15px;
+    font-weight: 250;
+    text-align: right;
+}
+
+progress {
+    flex-grow: 1;
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--card-background);
+}
+/* Reglas para Chrome, Edge y Safari */
+progress::-webkit-progress-bar { /* el fondo vacio por donde avanza la barra */
+    background-color: var(--card-background);
+    border-radius: 5px;
+}
+
+progress::-webkit-progress-value { /* el nivel de progreso de la barra */
+    background-color: var(--progress-bar);
+    border-radius: 5px;
+}
+/* Regla para firefox */
+progress::-moz-progress-bar { /* el nivel de progreso de la barra */
+    background-color: var(--progress-bar);
+    border-radius: 5px;
 }
