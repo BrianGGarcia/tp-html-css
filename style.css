@@ -242,3 +242,16 @@ progress::-moz-progress-bar { /* el nivel de progreso de la barra */
     color: var(--main-text);
     transform: scale(1.08);
 }
+/* Diseño responsivo basico */
+@media (max-width: 650px) {
+    .hero h1 {
+        font-size: 45px;
+        margin: 10px 10px 40px;
+    }
+
+    .controls {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
