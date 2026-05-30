@@ -17,3 +17,28 @@
     --border: #2A2D3A;
     --main-font: 'Inter';
 }
+
+ body {
+    background-color: var(--main-background);
+    color: var(--main-text);
+    font-family: var(--main-font);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+ }
+
+ .card {
+    background-color: var(--card-background);
+    width: 100%;
+    max-width: 800px;
+    border-radius: 25px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    box-shadow: 11px 10px 19px -5px rgba(0,0,0,0.75);
+    padding: 20px;
+ }
+
+
+
