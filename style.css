@@ -229,14 +229,16 @@ progress::-moz-progress-bar { /* el nivel de progreso de la barra */
 /* See more button */
 .see-more {
     background: transparent;
+    width: 90px;
     border: none;
     color: var(--secundary-text);
     font-size: 16px;
     cursor: pointer;
-    display: flex;
     justify-content: left;
+    transition: transform 0.3s ease;
 }
 
 .see-more:hover {
     color: var(--main-text);
+    transform: scale(1.08);
 }
