@@ -74,12 +74,13 @@ img {
 /* Hero */
 .hero {
     text-align: center;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
 }
 
 .hero h1 {
     font-size: 52px;
     margin: 25px 100px 40px;
+    font-weight: 600;
 }
 
 textarea {
@@ -96,5 +97,25 @@ textarea {
     resize: vertical;
 }
 /* Controls */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: var(--secundary-text);
+    font-size: 13px;
+    flex-wrap: wrap;
+}
 
+.checkboxes {
+    display: flex;
+    gap: 25px;
+}
 
+.checkboxes label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
