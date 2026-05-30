@@ -119,3 +119,50 @@ textarea {
     gap: 8px;
     cursor: pointer;
 }
+/* Metrics */
+.metrics {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.total-characters {
+    background-image: url(./assets/images/card-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.word-count {
+    background-image: url(./assets/images/card-2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.sentence-count {
+    background-image: url(./assets/images/card-3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.metrics div {
+    flex: 1 1 200px;
+    padding: 10px;
+    border-radius: 16px;
+    color: var(--main-background);
+}
+
+.number {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 450;
+    margin-bottom: 15px;
+}
