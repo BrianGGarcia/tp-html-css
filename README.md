@@ -40,3 +40,7 @@ Por falta de tiempo tuve que resignar la investigacion e implementacion de estil
 ![Screenshot](./assets/images/screenshot.png)
 ---
 ![Screenshot2](./assets/images/screenshot2.png)
+---
+![Screeshot-responsive](./assets/images/responsive-screenshot.png)
+---
+![Screeshot-responsive2](./assets/images/responsive-screenshot2.png)
